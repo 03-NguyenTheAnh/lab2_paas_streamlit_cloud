@@ -4,7 +4,7 @@ st.title("Cloud PaaS demo")
 
 st.write("Ứng dụng này được xây dựng bằng python và streamlit.")
 
-name = st.text_input("Nguyễn Thế Anh")
+name = st.text_input("Nhập tên của bạn")
 
 if name:
     st.write(f"Xin chào {name}!")
